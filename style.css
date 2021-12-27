@@ -8,8 +8,14 @@ h1 {
 	color: #c7d7f0;
 }
 
+h2 {
+	color: #c7d7f0;
+}
+
 ul {
 	display: flex;
+	margin: 0;
+	padding: 0;
 }
 
 li {
@@ -21,6 +27,20 @@ li {
 
 a {
 	color: white;
+	text-decoration: none;
+	padding: none;
+	margin: none;
+}
+
+a:hover {
+	color: white;
+}
+
+#logo {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 75px;
 }
 
 .card {
@@ -34,10 +54,11 @@ a {
 }
 
 #header-container {	
+	display: flex;
 	padding:  20px;
-	display: inline-block;
 	margin:  0 auto;
 	text-align: center;
+	flex-direction: column;
 }
 
 #body-container {
@@ -53,6 +74,7 @@ a {
 }
 
 #footer-container {
+	padding-top: 20px;
 	display: inline-block;
 	margin:  0 auto;
 }
