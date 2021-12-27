@@ -5,11 +5,16 @@ body {
 }
 
 h1 {
-	color: #c7d7f0;
+	color: white;
 }
 
 h2 {
 	color: #c7d7f0;
+}
+
+.contact-info {
+	color: #c7d7f0;
+	font-size: 20px;
 }
 
 ul {
@@ -19,6 +24,7 @@ ul {
 }
 
 li {
+	font-size: 20px;
 	color: white;
     list-style-type: none;
    	padding: 10px;
